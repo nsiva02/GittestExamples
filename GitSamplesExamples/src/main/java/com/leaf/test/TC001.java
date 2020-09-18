@@ -33,7 +33,8 @@ public class TC001 {
 			
 			System.out.println(invoice_item.getText());
 		}
-		driver.findElement(By.xpath("//a[text()='Log Out']")).sendKeys(Keys.RETURN);;
+		driver.findElement(By.xpath("//a[text()='Log Out']")).sendKeys(Keys.RETURN);
+		System.out.println("Git Commit");
 		
 	}
 
